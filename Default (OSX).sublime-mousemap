@@ -1,0 +1,27 @@
+[
+    {
+        "button": "button1",
+        "count": 1,
+        "press_command": "drag_select",
+        "modifiers": ["super"],
+        "command": "goto_definition"
+    },
+    {
+        "button": "button1",
+        "count": 1,
+        "press_command": "drag_select",
+        "modifiers": ["super", "shift"],
+        "command": "navigate_to_declaration"
+    },
+    {
+        "button": "button2",
+        "count": 1,
+        "modifiers": ["ctrl","shift"],
+        "command": "jump_prev"
+    },
+    {
+        "button": "button1", "count": 1, "modifiers": ["alt"],
+        "press_command": "drag_select",
+        "press_args": {"additive": true}
+    }
+]
